@@ -20,7 +20,7 @@
     "mysql": "^2.18.1",
     "nodemailer": "^6.9.1",
     "nodemon": "^3.1.9",
-    "playwright": "^1.51.1",
+    "playwright": "^1.52.0",
     "random": "^5.3.0"
   }
 }
