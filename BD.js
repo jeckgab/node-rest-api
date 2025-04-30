@@ -200,8 +200,9 @@ app.get('/api/NombreFollowers',(req,res)=>{
     db.query(sql,(err,result)=>{res.send(result)} )
 })
 
-app.listen(3001,()=>{
-    console.log('3008')
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
+    console.log(`Serveur lancé sur le port ${port}`);
 })
 
 module.exports = db;
