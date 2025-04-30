@@ -4,7 +4,7 @@
   "description": "",
   "main": "BD.js",
   "scripts": {
-    "build": "npx playwright install --with-deps",
+    "build": "npx playwright install ",
     "start": "node BD.js",
     "devStart": "nodemon BD.js",
     "test": "echo \"Error: no test specified\" && exit 1"
